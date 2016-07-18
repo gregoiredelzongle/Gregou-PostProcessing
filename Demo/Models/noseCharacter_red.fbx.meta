@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: e61e84c5a30fa455798c0eaab1978e39
+timeCreated: 1468773694
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Bassin
+    100004: Head
+    100006: L_Elbow
+    100008: L_Feet
+    100010: L_Finger
+    100012: L_Hand
+    100014: L_Knee
+    100016: L_Shoulder
+    100018: L_Thigh
+    100020: L_Toe
+    100022: mesh_head
+    100024: mesh_l_hear
+    100026: mesh_lowerBody
+    100028: mesh_nose
+    100030: mesh_r_hear
+    100032: mesh_upperBody
+    100034: Neck
+    100036: NoseCharacter_Mesh
+    100038: //RootNode
+    100040: NoseCharacter_Skeleton
+    100042: R_Elbow
+    100044: R_Feet
+    100046: R_Finger
+    100048: R_Hand
+    100050: R_Knee
+    100052: R_Shoulder
+    100054: R_Thigh
+    100056: R_Toe
+    100058: Vert_middle
+    100060: Vert_top
+    400000: Base
+    400002: Bassin
+    400004: Head
+    400006: L_Elbow
+    400008: L_Feet
+    400010: L_Finger
+    400012: L_Hand
+    400014: L_Knee
+    400016: L_Shoulder
+    400018: L_Thigh
+    400020: L_Toe
+    400022: mesh_head
+    400024: mesh_l_hear
+    400026: mesh_lowerBody
+    400028: mesh_nose
+    400030: mesh_r_hear
+    400032: mesh_upperBody
+    400034: Neck
+    400036: NoseCharacter_Mesh
+    400038: //RootNode
+    400040: NoseCharacter_Skeleton
+    400042: R_Elbow
+    400044: R_Feet
+    400046: R_Finger
+    400048: R_Hand
+    400050: R_Knee
+    400052: R_Shoulder
+    400054: R_Thigh
+    400056: R_Toe
+    400058: Vert_middle
+    400060: Vert_top
+    2300000: mesh_head
+    2300002: mesh_l_hear
+    2300004: mesh_lowerBody
+    2300006: mesh_nose
+    2300008: mesh_r_hear
+    2300010: mesh_upperBody
+    3300000: mesh_head
+    3300002: mesh_l_hear
+    3300004: mesh_lowerBody
+    3300006: mesh_nose
+    3300008: mesh_r_hear
+    3300010: mesh_upperBody
+    4300000: mesh_head
+    4300002: mesh_nose
+    4300004: mesh_l_hear
+    4300006: mesh_r_hear
+    4300008: mesh_lowerBody
+    4300010: mesh_upperBody
+    9500000: //RootNode
+    13700000: mesh_head
+    13700002: mesh_l_hear
+    13700004: mesh_lowerBody
+    13700006: mesh_nose
+    13700008: mesh_r_hear
+    13700010: mesh_upperBody
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

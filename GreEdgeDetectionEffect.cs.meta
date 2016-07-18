@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 66d2ca9d3eeda57478d66c3fe98f623d
+timeCreated: 1468850074
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _edgeDetectionShader: {fileID: 4800000, guid: 146b84993c6d8944b9e4227884e3e2e8,
+      type: 3}
+  - _combinerShader: {fileID: 4800000, guid: 164b5abddba5f47e8bec43adf20ea4be, type: 3}
+  - _normalColoringShader: {fileID: 4800000, guid: 9e0c818f710caee4399bd6aedab2b817,
+      type: 3}
+  - _cam: {instanceID: 0}
+  - renderingCamera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

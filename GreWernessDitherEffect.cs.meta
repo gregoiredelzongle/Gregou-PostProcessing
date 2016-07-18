@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4a2553ce120564370ba8d159fdb1013a
+timeCreated: 1468833977
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ditheringShader: {fileID: 4800000, guid: 856d4632edd7248089bdef42e20a839f, type: 3}
+  - initPassDitheringShader: {fileID: 4800000, guid: fe0af233c68594f38b6cde09f37a0019,
+      type: 3}
+  - finalPassDitheringShader: {fileID: 4800000, guid: e1cd61eca84134c5f993158497782747,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
