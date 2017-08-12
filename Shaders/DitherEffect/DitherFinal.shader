@@ -1,4 +1,6 @@
-﻿Shader "Hidden/GreWernessDitherFinalPassShader"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Hidden/DitherFinal"
 {
 	Properties
 	{
@@ -32,7 +34,7 @@
 			v2f vert (appdata v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.uv;
 				return o;
 			}
@@ -42,7 +44,6 @@
 			fixed4 frag (v2f i) : SV_Target
 			{
 				float4 col = tex2D(_MainTex,i.uv);
-
 				return float4(col.z,col.z,col.z,1.0);
 			}
 			ENDCG

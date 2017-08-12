@@ -1,4 +1,6 @@
-﻿Shader "Hidden/GreWernessDitherInitialPassShader"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Hidden/DitherInit"
 {
 	Properties
 	{
@@ -14,8 +16,7 @@
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			#pragma multi_compile _ SHOW_NOISE
-			
+
 			#include "UnityCG.cginc"
 
 			struct appdata
@@ -26,14 +27,14 @@
 
 			struct v2f
 			{
-				float2 uv : TEXCOORD0;
 				float4 vertex : SV_POSITION;
+				float2 uv : TEXCOORD0;
 			};
 
 			v2f vert (appdata v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.uv;
 				return o;
 			}
@@ -44,13 +45,9 @@
 
 			fixed4 frag (v2f i) : SV_Target
 			{
-				fixed4 cur = tex2D(_MainTex, i.uv);
+				fixed4 col = tex2D(_MainTex, i.uv);
 				fixed4 noi = tex2D(_Noise, i.uv);
-				#ifdef SHOW_NOISE
-					return float4(noi.x,noi.y,noi.z,1.0);
-				#else
-					return float4(cur.x,noi.y,noi.z,1.0);
-				#endif
+				return float4(col.x,noi.z,noi.z,1.0);
 			}
 			ENDCG
 		}
