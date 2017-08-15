@@ -62,27 +62,24 @@ public class GreDitherEffect : MonoBehaviour {
 		_initPassMat = new Material (Shader.Find(ditherInit));
 		_mat = new Material (Shader.Find(dither));
 		_finalPassMat = new Material (Shader.Find(ditherFinal));
-
+		_mat.SetFloatArray("_Kernel",kernel);
 	}
 
 	void OnRenderImage(RenderTexture src, RenderTexture dst)
 	{
-		if (noise == null || noise.height != src.height || noise.width != src.width)
+		if (noise == null || noise.height != src.height || noise.width != src.width) {
 			noise = Noise (src.width, src.height);
-		_mat.SetFloatArray("_Kernel",kernel);
-
-		var rt = RenderTexture.GetTemporary (src.width, src.height);
+			_initPassMat.SetTexture("_Noise",noise);
+		}
+					
 		var tmp1 = RenderTexture.GetTemporary (src.width, src.height);
 		var tmp2 = RenderTexture.GetTemporary (src.width, src.height);
 
 		// 1 - Initial pass
-		_initPassMat.SetTexture("_Noise",noise);
-
 		Graphics.Blit (src, tmp1,_initPassMat);
 
 		// 2 - Error diffusion passes
 		_mat.SetFloat ("_SumTreeshold", sumTreeshold);
-
 		bool curTmp = true;
 		for (int t = 0; t < iterations; t++) {
 
