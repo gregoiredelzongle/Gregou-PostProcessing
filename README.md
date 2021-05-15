@@ -16,6 +16,7 @@ TODO
 
 ### Gregou Dither
 ![Gregou_Dither](https://user-images.githubusercontent.com/9194561/118359398-81535f00-b583-11eb-90b8-c26d679da9d9.gif)
+
 Dithering effect similar to [Lukas Pope's Obra Dinn image effect](https://forums.tigsource.com/?topic=40832.0).
 |Parameters|Description|
 |:---------|:---------:|
@@ -28,6 +29,7 @@ Dithering effect similar to [Lukas Pope's Obra Dinn image effect](https://forums
 
 ### Gregou Edge Detection
 ![Gregou_EdgeDetection](https://user-images.githubusercontent.com/9194561/118359401-831d2280-b583-11eb-8a00-5847fc101010.gif)
+
 Edge detection effect using Sobel.
 |Parameters|Description|
 |:---------|:---------:|
