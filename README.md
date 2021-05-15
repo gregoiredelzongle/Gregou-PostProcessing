@@ -5,7 +5,13 @@ Collection of various post processing effects for Unity (Tested with Unity 2020.
 - Compatible with the Built-in render pipeline.
 
 ## Installation
-TODO
+
+### Package Manager (recommanded)
+1. In your Unity projet go to Window/Package Manager
+2. In the Package Manager window, click on the top left + icon, then choose "Add package from git URL" and paste : `https://github.com/gregoiredelzongle/Gregou-PostProcessing.git` then click on add.
+
+### Unity Package
+1. Go to the Release tab on the right, to get the latest .unitypackage
 
 ## Usage
 
