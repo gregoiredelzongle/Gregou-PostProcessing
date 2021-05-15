@@ -1,0 +1,21 @@
+{
+    "name":"com.gregou.postprocessing",
+    "version":"1.0.0",
+    "displayName": "Gregou Post Processing Collection",
+    "description": "Collection of various Post processing effects using PostProcessing Stack V2",
+    "unity":"2020.3",
+    "unityRelease":"8f1",
+    "dependencies": {
+        "com.unity.postprocessing": "3.1.0"
+    },
+    "keywords": [
+        "postprocessing",
+        "shader",
+        "image effects"
+    ],
+    "author": {
+        "name":"Gregoire Delzongle",
+        "email": "gregoiredelzongle@gmail.com",
+        "url":"https://github.com/gregoiredelzongle"
+    }
+}

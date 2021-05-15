@@ -1,4 +1,4 @@
-Shader "Hidden/Gege/Dither"
+Shader "Hidden/Gregou/Dither"
 {
     HLSLINCLUDE
 

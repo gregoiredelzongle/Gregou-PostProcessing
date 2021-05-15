@@ -1,5 +1,5 @@
 
-Shader "Hidden/Gege/EdgeDetection"
+Shader "Hidden/Gregou/EdgeDetection"
 {
     SubShader
     {
