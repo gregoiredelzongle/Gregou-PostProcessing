@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7697644997335608623
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a231062a2f81148b68e42e67610fa3, type: 3}
+  m_Name: GegeEdgeDetection
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  outlineColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  backgroundColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  colorBias:
+    overrideState: 1
+    value: 0.165
+  depthBias:
+    overrideState: 0
+    value: 1
+  outlineWidth:
+    overrideState: 1
+    value: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: GameObject Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: -7697644997335608623}
+  - {fileID: 8681868182999347661}
+--- !u!114 &8681868182999347661
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9cca0a47bc2ad48b815bf984088442, type: 3}
+  m_Name: GegeDither
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  iterations:
+    overrideState: 1
+    value: 7
+  sumBias:
+    overrideState: 1
+    value: 0.605
+  ditherColor:
+    overrideState: 1
+    value: {r: 0.46226418, g: 0.22967839, b: 0.22967839, a: 1}
+  colorBlend:
+    overrideState: 1
+    value: 0.424
