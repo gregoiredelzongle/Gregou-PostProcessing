@@ -1,5 +1,5 @@
 # Gregou Post Processing
-
+[![openupm](https://img.shields.io/npm/v/com.gregou.postprocessing?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.gregou.postprocessing/)
 Collection of various post processing effects for Unity (Tested with Unity 2020.3.8f1).
 - Made for the [Post-Processing Stack V2](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.1/manual/index.html).
 - Compatible with the Built-in render pipeline.
